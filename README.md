@@ -7,7 +7,7 @@
 
 ## Details
 
-This is an app that plays pretty shooting star animations and sounds from the keyboard.
+This is an app that plays pretty shooting star animations and sounds from the keyboard or on click or touch.
 
 ## Try
 
