@@ -67,6 +67,15 @@
       }
     }
 
+    function onMouseDown(event) 
+    {
+      var newPoint = event.point;
+      var newStar = new Path.Star(newPoint, 50, 50, 900)
+      starsArray.push(newStar);
+    
+      newStar.fillColor = "#" + String(Math.floor(Math.random()*16777215).toString(16));
+    }
+
     function onFrame(event) 
     { 
       for(var i = 0; i < starsArray.length; i++)
